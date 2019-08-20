@@ -7,9 +7,15 @@
     #define DE_HOME                 "Home"
     #define DE_PRINT                "Drucken"
     #define DE_EXTRUDE              "Extruder"
+<<<<<<< HEAD
+    #define DE_FAN                  "Luefter"
+    #define DE_SETTINGS             "Setup"
+    #define DE_LEVELING             "Leveling"
+=======
     #define DE_FAN                  "Fan"
     #define DE_SETTINGS             "Setup"
     #define DE_LEVELING             "ABL"
+>>>>>>> 6117d986a314238a4f0a5ecdc478c1888b7b561d
     #define DE_INC                  "Erhoehen"
     #define DE_DEC                  "Verringern"
     #define DE_NOZZLE               "Duese"
@@ -38,9 +44,15 @@
     #define DE_PERCENTAGE_SPEED     "Speed"
     #define DE_PERCENTAGE_FLOW      "Flow"    
     #define DE_VALUE_ZERO           "Null"
+<<<<<<< HEAD
+    #define DE_1_DEGREE             "1 Grad"
+    #define DE_5_DEGREE             "5 Grad"
+    #define DE_10_DEGREE            "10 Grad"
+=======
     #define DE_1_DEGREE             "1¡æ"
     #define DE_5_DEGREE             "5¡æ"
     #define DE_10_DEGREE            "10¡æ"
+>>>>>>> 6117d986a314238a4f0a5ecdc478c1888b7b561d
     #define DE_X_INC                "X+"
     #define DE_Y_INC                "Y+"
     #define DE_Z_INC                "Z+"
@@ -62,7 +74,11 @@
     #define DE_READY                "Bereit"
     #define DE_PRINTING             "Druckt"
     #define DE_BUSY                 "Bitte warten..."
+<<<<<<< HEAD
+    #define DE_UNCONNECTED          "     Keine Verbindung zum Drucker!     "
+=======
     #define DE_UNCONNECTED          "Keine Verbindung zum Drucker!"
+>>>>>>> 6117d986a314238a4f0a5ecdc478c1888b7b561d
     #define DE_DISCONNECT_INFO      "Verbindung getrennt!"
     #define DE_LOADING              "Laden..."
     #define DE_READ_SD_ERROR        "SD Lesefehler!"    
@@ -79,6 +95,25 @@
 
     #define DE_TFTSD                "TFT SD"
     #define DE_READ_TFTSD_ERROR     "Read TFT SD card error!"
+<<<<<<< HEAD
+    
+    #define DE_TFTSD_INSERTED       "            SD-Karte erkannt           "
+    #define DE_TFTSD_REMOVED        "            SD-Karte entfernt          "
+    
+    #define DE_U_DISK               "USB"
+    #define DE_READ_U_DISK_ERROR    "Read U Disk error!"
+    #define DE_U_DISK_INSERTED      "           USB-Stick erkannt           "
+    #define DE_U_DISK_REMOVED       "           USB-Stick entfernt          "
+    
+    #define DE_ONBOARDSD            "OnboardSD"
+    #define DE_READ_ONBOARDSD_ERROR "Read Onboard SD card error!"
+    
+    #define DE_LABLE_CUSTOMPAGE     "Mehr"
+    #define DE_LABLE_CUSTOM_1       "PETG"
+    #define DE_LABLE_CUSTOM_2       "PLA"
+    #define DE_LABLE_CUSTOM_3       ""
+    #define DE_LABLE_CUSTOM_4       ""
+=======
     #define DE_TFTSD_INSERTED       "Card inserted!"
     #define DE_TFTSD_REMOVED        "Card removed!"
     
@@ -89,5 +124,6 @@
     
     #define DE_ONBOARDSD            "OnboardSD"
     #define DE_READ_ONBOARDSD_ERROR "Read Onboard SD card error!"
+>>>>>>> 6117d986a314238a4f0a5ecdc478c1888b7b561d
 
 #endif
