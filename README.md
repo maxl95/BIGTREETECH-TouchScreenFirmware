@@ -1,4 +1,4 @@
-This is my fork of BigTreeTechs TFT Firmware. I own a TFT24 V1.1. i've added a custom menu page for custom gcode commands with custom icons.
+This is my fork of BigTreeTechs TFT Firmware. I own a TFT24 V1.1. I've added a custom menu page for custom gcode commands with custom icons.
 
 ![image](https://raw.githubusercontent.com/maxl95/BIGTREETECH-TouchScreenFirmware/master/pictures/CustomMenu.JPG)
 ![image](https://raw.githubusercontent.com/maxl95/BIGTREETECH-TouchScreenFirmware/master/pictures/CustomMenu2.JPG)
