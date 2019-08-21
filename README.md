@@ -2,6 +2,7 @@ This is my fork of BigTreeTechs TFT Firmware. I own a TFT24 V1.1. I've added a c
 
 ![image](https://raw.githubusercontent.com/maxl95/BIGTREETECH-TouchScreenFirmware/master/pictures/CustomMenu.JPG)
 ![image](https://raw.githubusercontent.com/maxl95/BIGTREETECH-TouchScreenFirmware/master/pictures/CustomMenu2.JPG)
+![image](https://raw.githubusercontent.com/maxl95/BIGTREETECH-TouchScreenFirmware/master/pictures/BedLeveling.JPG)
 
 ### *****************************************************************************************************
 
