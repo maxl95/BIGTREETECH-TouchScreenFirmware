@@ -38,25 +38,25 @@ void menubedleveling(void) {
     switch(key_num) {
       case KEY_ICON_0:
       storeCmd("G1 Z10 F1000\n");
-      storeCmd("G1 X180 Y50 F9000\n");
+      storeCmd(LEVELPONIT_1);
       storeCmd("G1 Z0 F500\n");
       goto selectEnd;
 
       case KEY_ICON_1:
       storeCmd("G1 Z10 F1000\n");
-      storeCmd("G1 X50 Y50 F9000\n");
+      storeCmd(LEVELPONIT_2);
       storeCmd("G1 Z0 F500\n");
       goto selectEnd;
 
       case KEY_ICON_2:
       storeCmd("G1 Z10 F1000\n");
-      storeCmd("G1 X50 Y180 F9000\n");
+      storeCmd(LEVELPONIT_3);
       storeCmd("G1 Z0 F500\n");
       goto selectEnd;
 
       case KEY_ICON_3:
       storeCmd("G1 Z10 F1000\n");
-      storeCmd("G1 X180 Y180 F9000\n");
+      storeCmd(LEVELPONIT_4);
       storeCmd("G1 Z0 F500\n");
       goto selectEnd;
 
