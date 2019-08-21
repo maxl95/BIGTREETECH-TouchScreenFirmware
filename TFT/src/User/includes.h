@@ -71,7 +71,10 @@
 
 #include "Popup.h"
 #include "Mode.h"
+
+#ifdef MOREMENU
 #include "customPage.h"
+#endif
 
 //address in spiflash W25Qxx
 #define LOGO_ADDR               0x0

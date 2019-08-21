@@ -33,10 +33,10 @@
 #define MOREMENU    //Enable the More-Page on main menu and disable the OEM ABL (bedleveling) function
 
 //Coordinates of the four level points
-#define LEVELPONIT_1 "G1 X180 Y50 F9000\n"  //Coordinate of the first levelpoint 
-#define LEVELPONIT_2 "G1 X50 Y50 F9000\n"   //Coordinate of the second levelpoint
-#define LEVELPONIT_3 "G1 X50 Y180 F9000\n"  //Coordinate of the third levelpoint
-#define LEVELPONIT_4 "G1 X180 Y180 F9000\n" //Coordinate of the fourth levelpoint
+#define LEVELPONIT_1 "G1 X180 Y50 F9000\n"  //Coordinate of the first levelpoint, absolute position activ (G1), Travelspeed = 9000mm/min
+#define LEVELPONIT_2 "G1 X50 Y50 F9000\n"   //Coordinate of the second levelpoint, absolute position activ (G1), Travelspeed = 9000mm/min
+#define LEVELPONIT_3 "G1 X50 Y180 F9000\n"  //Coordinate of the third levelpoint, absolute position activ (G1), Travelspeed = 9000mm/min
+#define LEVELPONIT_4 "G1 X180 Y180 F9000\n" //Coordinate of the fourth levelpoint, absolute position activ (G1), Travelspeed = 9000mm/min
 
 /**
  * 12864 Mode Background & Font Color Options
