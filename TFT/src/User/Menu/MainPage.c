@@ -40,7 +40,7 @@ void menuMain(void)
       case KEY_ICON_5: infoMenu.menu[++infoMenu.cur] = menuFan;       break;
       case KEY_ICON_6: infoMenu.menu[++infoMenu.cur] = menuSettings;  break;
 
-      #ifndef NO_BEDLEVELING
+      #ifndef MOREMENU
       case KEY_ICON_7: storeCmd("G28\n"); storeCmd("G29\n");          break;
       #else
       case KEY_ICON_7: infoMenu.menu[++infoMenu.cur] = menuCustom;    break;

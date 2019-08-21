@@ -29,8 +29,14 @@
 #define Y_MAX_POS 220
 #define Z_MAX_POS 180
 
-//Disable Bed-Leveling on Mainpage
-#define NO_BEDLEVELING
+//Enable "More-Page" on mainMenu
+#define MOREMENU    //Enable the More-Page on main menu and disable the OEM ABL (bedleveling) function
+
+//Coordinates of the four level points
+#define LEVELPONIT_1 "G1 X180 Y50 F9000\n"  //Coordinate of the first levelpoint 
+#define LEVELPONIT_2 "G1 X50 Y50 F9000\n"   //Coordinate of the second levelpoint
+#define LEVELPONIT_3 "G1 X50 Y180 F9000\n"  //Coordinate of the third levelpoint
+#define LEVELPONIT_4 "G1 X180 Y180 F9000\n" //Coordinate of the fourth levelpoint
 
 /**
  * 12864 Mode Background & Font Color Options
