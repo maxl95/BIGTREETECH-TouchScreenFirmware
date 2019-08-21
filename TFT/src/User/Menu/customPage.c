@@ -37,18 +37,31 @@ void menubedleveling(void) {
     key_num = menuKeyGetValue();
     switch(key_num) {
       case KEY_ICON_0:
+      storeCmd("G1 Z10 F1000\n");
+      storeCmd("G1 X180 Y50 F9000\n");
+      storeCmd("G1 Z0 F500\n");
       goto selectEnd;
 
       case KEY_ICON_1:
+      storeCmd("G1 Z10 F1000\n");
+      storeCmd("G1 X50 Y50 F9000\n");
+      storeCmd("G1 Z0 F500\n");
       goto selectEnd;
 
       case KEY_ICON_2:
+      storeCmd("G1 Z10 F1000\n");
+      storeCmd("G1 X50 Y180 F9000\n");
+      storeCmd("G1 Z0 F500\n");
       goto selectEnd;
 
       case KEY_ICON_3:
+      storeCmd("G1 Z10 F1000\n");
+      storeCmd("G1 X180 Y180 F9000\n");
+      storeCmd("G1 Z0 F500\n");
       goto selectEnd;
 
       case KEY_ICON_7:
+        storeCmd("G28\n");
         infoMenu.cur--;
         return;
       
@@ -95,6 +108,8 @@ void menuCustom(void)
 
 
       case KEY_ICON_4:
+        storeCmd("G28\n");
+        storeCmd("G1 Z10 F1000\n");
         infoMenu.menu[++infoMenu.cur] = menubedleveling;
         goto selectEnd;  
       
