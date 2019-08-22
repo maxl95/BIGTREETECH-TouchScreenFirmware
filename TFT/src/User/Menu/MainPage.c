@@ -13,7 +13,7 @@ LABEL_READY,
   {ICON_EXTRUDE,              LABEL_EXTRUDE},
   {ICON_FAN,                  LABEL_FAN},
   {ICON_SETTINGS,             LABEL_SETTINGS},
-  #ifndef NO_BEDLEVELING
+  #ifndef MOREMENU
   {ICON_LEVELING,             LABEL_LEVELING},
   #else
   {ICON_FOLDER,             LABLE_CUSTOMPAGE},
