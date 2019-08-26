@@ -33,6 +33,8 @@
     #define AM_DISCONNECT           "Disconnect"
     #define AM_BAUDRATE_115200      "115200"
     #define AM_BAUDRATE_250000      "250000"
+    #define AM_RUNOUT_OFF           "Runout OFF"
+    #define AM_RUNOUT_ON            "Runout ON"
     #define AM_PERCENTAGE           "Percentage"
     #define AM_BABYSTEP             "Baby step"
     #define AM_PERCENTAGE_SPEED     "Speed"

@@ -33,6 +33,8 @@
     #define JP_DISCONNECT           "�ǩ`���ӾA"
     #define JP_BAUDRATE_115200      "115200"
     #define JP_BAUDRATE_250000      "250000"
+    #define JP_RUNOUT_OFF           "Runout OFF"
+    #define JP_RUNOUT_ON            "Runout ON"
     #define JP_PERCENTAGE           "�ѩ`�����"
     #define JP_BABYSTEP             "�٥ө`���ƥå�"
     #define JP_PERCENTAGE_SPEED     "���ө`��"
