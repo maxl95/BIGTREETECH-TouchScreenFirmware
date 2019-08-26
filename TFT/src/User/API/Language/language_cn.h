@@ -88,6 +88,7 @@
     
     #define CN_ONBOARDSD            "����SD"
     #define CN_READ_ONBOARDSD_ERROR "������SD������!"
+    #define CN_FILAMENT_RUNOUT      "�Ĳ����þ�,������Ĳ�!"
     
     #define CN_LABLE_CUSTOMPAGE     "More"
     #define CN_LABLE_CUSTOM_1       "PETG"

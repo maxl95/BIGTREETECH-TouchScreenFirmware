@@ -88,6 +88,7 @@
     
     #define EN_ONBOARDSD            "OnboardSD"
     #define EN_READ_ONBOARDSD_ERROR "Read Onboard SD card error!"
+    #define EN_FILAMENT_RUNOUT      "filament runout!"
     
     #define EN_LABLE_CUSTOMPAGE     "More"
     #define EN_LABLE_CUSTOM_1       "PETG"

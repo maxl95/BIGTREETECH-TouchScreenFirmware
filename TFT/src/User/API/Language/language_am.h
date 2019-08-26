@@ -89,6 +89,8 @@
     
     #define AM_ONBOARDSD            "OnboardSD"
     #define AM_READ_ONBOARDSD_ERROR "Read Onboard SD card error!"
+    #define AM_FILAMENT_RUNOUT      "filament runout!"
+
     #define AM_LABLE_CUSTOMPAGE     "More"
 
 #endif

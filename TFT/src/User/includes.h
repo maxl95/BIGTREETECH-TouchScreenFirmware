@@ -1,5 +1,3 @@
-
-
 #ifndef _INCLUDES_H_
 #define _INCLUDES_H_
 
@@ -165,6 +163,8 @@ enum
   ICON_BSD_SOURCE,
   ICON_SD_SOURCE,
   ICON_U_DISK,
+  ICON_RUNOUT,
+
   ICON_CUSTOM_1,
   ICON_CUSTOM_2,
   ICON_CUSTOM_3,

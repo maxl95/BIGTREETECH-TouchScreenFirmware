@@ -88,6 +88,7 @@
     
     #define JP_ONBOARDSD            "�ڲ� mSD���`��"
     #define JP_READ_ONBOARDSD_ERROR "�ڲ� mSD���`�ɤ��i��ȡ�꤬����`�k�����ޤ���!"
+    #define JP_FILAMENT_RUNOUT      "filament runout!"
     
     #define JP_LABLE_CUSTOMPAGE     "More"
     #define JP_LABLE_CUSTOM_1       "PETG"

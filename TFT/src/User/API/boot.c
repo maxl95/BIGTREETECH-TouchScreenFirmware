@@ -16,7 +16,7 @@ const char iconBmpName[][20]={
 "Load", "Unload", "Slow", "Normal", "Fast", "Emm_1", "Emm_5", "Emm_10",
 "Full", "Half",
 "PowerOff", "Language", "TP_Adjust", "About", "Disconnect", "BaudRate",
-"Percentage", "BabyStep", "Mmm_001", "OnBoardSD", "OnTFTSD", "U_Disk",
+"Percentage", "BabyStep", "Mmm_001", "OnBoardSD", "OnTFTSD", "U_Disk", "Runout",
 "custom_1", "custom_2", "custom_3", "custom_4",
 "bed_level_1", "bed_level_2", "bed_level_3", "bed_level_4",
 }; 
