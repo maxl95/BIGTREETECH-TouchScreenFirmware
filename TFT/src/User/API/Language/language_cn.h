@@ -33,6 +33,8 @@
     #define CN_DISCONNECT           "�Ͽ�����"
     #define CN_BAUDRATE_115200      "115200"
     #define CN_BAUDRATE_250000      "250000"
+    #define CN_RUNOUT_OFF           "耗材检测关"
+    #define CN_RUNOUT_ON            "耗材检测开"
     #define CN_PERCENTAGE           "�ٷֱ�"
     #define CN_BABYSTEP             "Z-΢��"
     #define CN_PERCENTAGE_SPEED     "�ٶȰٷֱ�"
