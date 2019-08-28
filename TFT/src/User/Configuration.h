@@ -26,7 +26,7 @@
 
 //size of machine
 #define X_MAX_POS 210
-#define Y_MAX_POS 220
+#define Y_MAX_POS 235
 #define Z_MAX_POS 180
 
 //Enable "More-Page" on mainMenu

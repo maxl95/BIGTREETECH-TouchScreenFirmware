@@ -50,8 +50,8 @@ MENUITEMS infomenuitems = {
 LABEL_READY,
 // icon                       label
  {{ICON_BACKGROUND,           LABEL_BACKGROUND},
-  {ICON_BACKGROUND,           LABEL_BACKGROUND},
-  {ICON_BACKGROUND,           LABEL_BACKGROUND},
+  {ICON_NOZZLE,               LABEL_BACKGROUND},
+  {ICON_BED,                  LABEL_BACKGROUND},
   {ICON_BACKGROUND,           LABEL_BACKGROUND},
   {ICON_BACKGROUND,           LABEL_BACKGROUND},
   {ICON_BACKGROUND,           LABEL_BACKGROUND},
@@ -165,8 +165,8 @@ selectEnd:
 const GUI_RECT progressRectinfo = {1*SPACE_X_PER_ICON, 0*ICON_HEIGHT+0*SPACE_Y+TITLE_END_Y + ICON_HEIGHT/4,
                                3*SPACE_X_PER_ICON, 0*ICON_HEIGHT+0*SPACE_Y+TITLE_END_Y + ICON_HEIGHT*3/4};
 
-#define BED_X  (progressRectinfo.x1 - 9 * BYTE_WIDTH)
-#define TEMP_Y (progressRectinfo.y1 + 3)
+#define BED_X  (progressRectinfo.x1 -9 * BYTE_WIDTH)
+#define TEMP_Y (progressRectinfo.y1 + 23)
 #define TIME_Y (TEMP_Y + 1 * BYTE_HEIGHT + 3)
 
 void infomenu(void) {
@@ -174,22 +174,21 @@ void infomenu(void) {
   
   menuDrawPage(&infomenuitems);
 
-  //GUI_DispString(progressRectinfo.x0+BYTE_WIDTH*2, TEMP_Y,(u8* )":",0);
-  GUI_DispChar(progressRectinfo.x0+BYTE_WIDTH*6, TEMP_Y,'/',0);
+  //GUI_DispString(progressRectinfo.x0 - 55, TEMP_Y, (u8* )"Nozzle:", 1);
+  GUI_DispChar(progressRectinfo.x0+BYTE_WIDTH*6 - 10, TEMP_Y,'/',0);
   
-  GUI_DispString(BED_X, TEMP_Y,(u8* )"Bed:",0);
-  GUI_DispChar(BED_X+BYTE_WIDTH*5 + 15, TEMP_Y,'/',0);
+  //GUI_DispString(BED_X + 30, TEMP_Y,(u8* )"Bed:",0);
+  GUI_DispChar(BED_X+BYTE_WIDTH*5 - 10, TEMP_Y,'/',0);
 
   while(infoMenu.menu[infoMenu.cur] == infomenu)
   {
-    //Read Nozzle-Temp.
-    GUI_DispString(progressRectinfo.x0 - 28, TEMP_Y, (u8* )"Nozzle:", 1);
-    GUI_DispDec(progressRectinfo.x0+BYTE_WIDTH*3, TEMP_Y, heatGetCurrentTemp(heatGetCurrentToolNozzle()), 3, 1, RIGHT);
-    GUI_DispDec(progressRectinfo.x0+BYTE_WIDTH*7, TEMP_Y, heatGetTargetTemp(heatGetCurrentToolNozzle()),  3, 1, LEFT);
+    //Read Nozzle_1-Temp.
+    GUI_DispDec(progressRectinfo.x0+BYTE_WIDTH*3 - 10, TEMP_Y, heatGetCurrentTemp(1), 3, 1, RIGHT);
+    GUI_DispDec(progressRectinfo.x0+BYTE_WIDTH*7 - 10, TEMP_Y, heatGetTargetTemp(1),  3, 1, LEFT);
     
     //Read Bed-Temp.
-    GUI_DispDec(BED_X + 2 * BYTE_WIDTH + 15, TEMP_Y, heatGetCurrentTemp(BED), 3, 1, RIGHT);
-    GUI_DispDec(BED_X + 6 * BYTE_WIDTH + 15, TEMP_Y, heatGetTargetTemp(BED),  3, 1, LEFT);
+    GUI_DispDec(BED_X + 2 * BYTE_WIDTH - 10, TEMP_Y, heatGetCurrentTemp(BED), 3, 1, RIGHT);
+    GUI_DispDec(BED_X + 6 * BYTE_WIDTH - 10, TEMP_Y, heatGetTargetTemp(BED),  3, 1, LEFT);
 
     key_num = menuKeyGetValue();
     switch(key_num)
